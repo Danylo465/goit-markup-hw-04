@@ -446,10 +446,9 @@ margin: auto;
     margin-bottom: 16px;
     text-transform: uppercase;
 }
-.footer-container-icons{
+.container-footer{
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 .social-media-par{
     color:#FFFFFF;
@@ -462,18 +461,18 @@ margin: auto;
 .social-link-icons{
     width: 100%;
     height: 100%;
-    background-color:#4d5ae5;
     border-radius: 50%;
     display: flex; 
     align-items: center;
     justify-content: center;
+    gap: 16px;
 }
 .social-link-icons:hover
 .social-link-icons:focus{
     background-color: #31d0aa;
 }
 .logo-par{
-    
+    margin-right: 120px;
 }
 /* Кінець налаштувань футера */          
 
