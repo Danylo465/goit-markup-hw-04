@@ -412,15 +412,11 @@ margin: auto;
     background: rgba(46, 47, 66, 1);
     color: #F4F4FD;
     padding: 100px 0;
-    
 }
 .container-footer{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
-    align-items: baseline;
-
 }
 .par{
     background: rgba(46, 47, 66, 1);
@@ -447,8 +443,12 @@ margin: auto;
     margin-bottom: 16px;
     text-transform: uppercase;
 }
+.full-footer-cont{
+    display: flex;
+    align-items: baseline;
+}
 .container-footer{
-    
+    margin-right: 120px;
 }
 .social-media-par{
     color:#FFFFFF;
