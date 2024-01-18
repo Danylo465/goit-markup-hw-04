@@ -310,7 +310,7 @@ margin: auto;
     justify-content: center;
 }
 .link-for-icons:hover,
-.link-for-icons:focus{
+.link-for-icons:focus {
     background-color: #404bbf;
 }
 .svg-links-icons{
@@ -450,7 +450,6 @@ margin: auto;
 .full-footer-cont{
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 
 .social-media-par{
@@ -459,7 +458,6 @@ margin: auto;
     margin-bottom: 16px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 120px;
 }
 .social-link-icons{
     display: flex;
