@@ -310,7 +310,9 @@ margin: auto;
     align-items: center;
     justify-content: center;
 }
-.link-for-icons:hover,
+.link-for-icons:hover {
+    background-color: #404bbf;
+}    
 .link-for-icons:focus {
     background-color: #404bbf;
 }
