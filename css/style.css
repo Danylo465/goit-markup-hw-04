@@ -310,10 +310,10 @@ margin: auto;
     align-items: center;
     justify-content: center;
 }
-.link-for-icons:hover {
+.link-for-icon:hover {
     background-color: #404bbf;
 }    
-.link-for-icons:focus {
+.link-for-icon:focus {
     background-color: #404bbf;
 }
 .svg-links-icons{
