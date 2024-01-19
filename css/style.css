@@ -433,6 +433,7 @@ margin: auto;
     letter-spacing: 0.02em;
     text-align: left;
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .last-span{
@@ -461,7 +462,6 @@ margin: auto;
     margin-bottom: 16px; 
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 120px;
 }
 .social-link-icons{
     display: flex;
