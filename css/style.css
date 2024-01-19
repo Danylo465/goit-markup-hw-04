@@ -424,6 +424,7 @@ margin: auto;
 .container-footer{
     margin-left: 156px;
     padding: 0 15px;
+    margin-right: 120px;
 }
 .par{
     background: rgba(46, 47, 66, 1);
@@ -433,7 +434,7 @@ margin: auto;
     letter-spacing: 0.02em;
     text-align: left;
     max-width: 264px;
-    margin-right: 120px;
+    
 }
 
 .last-span{
