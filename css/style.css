@@ -86,7 +86,7 @@ text-align: left;
 color: #2e2f42;
 }
 
-.nav-link{
+.nav-link-active{
     display: block;
     color: #2e2f42;
     font-weight: 500;
@@ -96,6 +96,29 @@ color: #2e2f42;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.nav-link-active::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+}
+.nav-link-active:hover,
+.nav-link-active:focus {
+    color: #404bbf;
+}
+.nav-link{
+font-size: 16px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
 .nav-link::after{
     content: "";
     position: absolute;
@@ -148,7 +171,10 @@ background-position: center;
 background-size: cover; 
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-    
+.container-hero{
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .main-header{
 font-size: 56px;
 font-weight: 700;
@@ -212,7 +238,18 @@ margin: auto;
     border-radius: 4px;
     margin-bottom: 8px;
 }
-
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .list-text{
     font-weight: 500;
     font-size: 20px;
@@ -254,6 +291,12 @@ margin: auto;
 .team-header{
     margin-bottom: 72px; 
     text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+
 }
 
 .team-list{
@@ -343,6 +386,8 @@ margin: auto;
     text-align: center;
     color: rgba(46, 47, 66, 1);
     margin-bottom: 72px;
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-transform: capitalize;
 }
 
 .portfolio-list{
@@ -361,7 +406,7 @@ margin: auto;
 .portfolio-list-items:hover{
     box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-list-items:hover p{
+.portfolio-list-items:hover .par-for-img{
     transform: translateY(0%);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -400,8 +445,9 @@ margin: auto;
     letter-spacing: 0.02em;
     text-align: left;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE, #2E2F42);
 }
 .par-portfolio{
     color: #434455;
@@ -422,7 +468,6 @@ margin: auto;
     padding: 100px 0;
 }
 .container-footer{
-    padding: 0 15px;
     margin-right: 120px;
 }
 .par{
